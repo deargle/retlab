@@ -26,6 +26,8 @@ title: Ben Balter
 description: Attorney, open source developer, product manager
 github_username: benbalter
 
+pgp_key:
+
 lang: en-US
 
 # Pages to include in header navigation
@@ -80,3 +82,5 @@ plugins:
 ```
 
 You may also want to see [Jekyll SEO Tag’s configuration](https://github.com/jekyll/jekyll-seo-tag).
+
+If you have a pgp key, set it as a config far and upload it as `key.asc`
