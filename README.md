@@ -55,6 +55,15 @@ contact_links:
   - name: Facebook
     url: https://facebook.com/BenBalter
     icon: facebook
+    
+
+url: 'https://daveeargle.com'
+
+# github repository url
+repository: 'deargle/deargle.github.io'
+
+# Google Analytics, if using
+ga_username: 'UA-35065822-1'
 
 # Front matter defaults
 defaults:
