@@ -1,9 +1,9 @@
-$header-path: "/assets/img/header.jpg";
-$blue: #337ab7;
-$enable-shadows: true;
-$enable-gradients: true;
+$header-path: "/assets/img/header.jpg" !default; 
+$blue: #337ab7 !default;
+$enable-shadows: true !default;
+$enable-gradients: true !default;
 
-@import "node_modules/bootstrap/scss/bootstrap";
+@import "bootstrap/bootstrap";
 @import "highlighting";
 
 .footnotes { @extend .small; @extend .border-top; @extend .pt-3; }
