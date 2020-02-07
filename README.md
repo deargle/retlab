@@ -12,7 +12,7 @@
 1. Add this line to your site's configuration:
 
    ```yaml
-   remote_theme: benbalter/retlab
+   remote_theme: deargle/retlab
    ```
 
 2. Save a header image to `/assets/img/header.jpg`. It should be 400px by 1140px.
@@ -24,6 +24,9 @@ You’ll want to customize and add the following configurations to your site’s
 ```yml
 title: Ben Balter
 description: Attorney, open source developer, product manager
+github_username: benbalter
+
+pgp_key:
 
 lang: en-US
 
@@ -52,6 +55,15 @@ contact_links:
   - name: Facebook
     url: https://facebook.com/BenBalter
     icon: facebook
+    
+
+url: 'https://daveeargle.com'
+
+# github repository url
+repository: 'deargle/deargle.github.io'
+
+# Google Analytics, if using
+ga_username: 'UA-35065822-1'
 
 # Front matter defaults
 defaults:
@@ -79,3 +91,5 @@ plugins:
 ```
 
 You may also want to see [Jekyll SEO Tag’s configuration](https://github.com/jekyll/jekyll-seo-tag).
+
+If you have a pgp key, set it as a config far and upload it as `key.asc`

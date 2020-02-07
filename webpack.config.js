@@ -1,16 +1,12 @@
 const path = require('path');
-const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 
 module.exports = {
-  entry: ['./js/script.ts', './sass/_retlab.scss'],
+  entry: ['./js/script.ts'],
   output: {
     path: path.resolve(__dirname, 'assets'),
     filename: 'js/bundle.js'
   },
   mode: 'production',
-  plugins: [
-    new MiniCssExtractPlugin({filename: 'css/style.css'})
-  ],
   module: {
     rules: [
       {
@@ -28,15 +24,6 @@ module.exports = {
         use: {
           loader: 'babel-loader'
         }
-      },
-      {
-        test: /\.scss$/,
-        use: [
-          MiniCssExtractPlugin.loader,
-          'css-loader',
-          'sass-loader',
-          'postcss-loader'
-        ]
       }
     ]
   }
